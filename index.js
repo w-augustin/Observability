@@ -1,4 +1,4 @@
-const tracer = require("../tracing")("todo-service");
+const tracer = require("./tracing")("todo-service");
 const express = require("express");
 const { MongoClient } = require("mongodb");
 const app = express();
